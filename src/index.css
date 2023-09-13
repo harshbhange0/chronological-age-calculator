@@ -11,3 +11,14 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.bg_color {
+  background: linear-gradient(
+    120deg,
+    #3b06ac,
+    #2a0970,
+    #3b06ac,
+    #260e59,
+    #240f50,
+    #3b06ac
+  );
+}
