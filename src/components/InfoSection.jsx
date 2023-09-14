@@ -69,7 +69,7 @@ function InfoSection() {
               counting your age from the first given date (date of birth) to the
               last given date (the present day).
               <br />
-              <span className="text-md my-4 block font-[200]">
+              <span className="text-md my-4 block font-[100]">
                 “Chronological order misses no events. Thus, while arranging
                 dates in chronological order, we should always include days and
                 months with the year.”
