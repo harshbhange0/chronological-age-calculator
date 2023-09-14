@@ -5,7 +5,7 @@ function InfoSection() {
   return (
     <section className="mx-auto flex w-full flex-col items-center justify-center gap-8 px-4 sm:w-[80%] sm:px-0 md:w-[70%]">
       <div className="flex flex-col gap-2  sm:flex-row sm:justify-center sm:gap-4 md:gap-8">
-        <div className="mb-auto h-auto space-y-8 rounded-md border border-[#FFB777] px-4 py-2">
+        <div className="mb-auto h-auto space-y-8 rounded-md border border-[#FFB777] px-4 py-2 shadow-md shadow-[#FFB777]">
           <h1 className="md:test-4xl text-center text-xl text-[#5DCBC4] sm:text-2xl">
             Quick Navigation
           </h1>
@@ -20,7 +20,7 @@ function InfoSection() {
         </div>
 
         <div className=" mb-auto h-auto">
-          <div className="rounded-md border border-[#FFB777] px-4  py-2">
+          <div className="rounded-md border border-[#FFB777] px-4 py-2 shadow-md  shadow-[#FFB777]">
             <span className="mx-auto block text-center">
               Scroll for More Interesting <br /> Information
             </span>
@@ -32,7 +32,7 @@ function InfoSection() {
       </div>
 
       <div className="w-full space-y-8 sm:w-[90%]  md:w-[80%]">
-        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2">
+        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2 shadow-md shadow-[#FFB777]">
           <h1 className="text-center text-xl text-[#5DCBC4] sm:text-2xl md:text-4xl">
             Understanding Chronological Age Calculator
           </h1>
@@ -47,7 +47,7 @@ function InfoSection() {
           </p>
         </div>
 
-        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2">
+        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2 shadow-md shadow-[#FFB777]">
           <div className="mx-auto flex flex-col space-y-2  px-4 py-2">
             <h1 className="text-xl  text-[#5DCBC4] sm:text-2xl md:text-4xl">
               What is Chronological Age?
@@ -79,7 +79,7 @@ function InfoSection() {
             </p>
           </div>
         </div>
-        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2">
+        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2 shadow-md shadow-[#FFB777]">
           <div className="mx-auto flex flex-col space-y-2 px-4 py-2">
             <h1 className="text-xl  text-[#5DCBC4] sm:text-2xl md:text-4xl">
               Need for Calculating Chronological Age
@@ -92,16 +92,20 @@ function InfoSection() {
               </span>
             </p>
           </div>
-          <dir className="flex flex-col py-4 sm:flex-row">
-            <div className="mx-auto w-[40%] space-y-2 rounded-md  border border-[#FFB777] px-4 py-2 text-center">
-              <h2 className="text-lg sm:text-xl md:text-2xl">Voting</h2>
+          <dir className="flex flex-col gap-4 py-4 sm:flex-row">
+            <div className="w-[90%] space-y-2 rounded-md border border-[#FFB777]  px-4 py-2 text-center shadow-md shadow-[#FFB777] md:mx-auto md:w-[40%]">
+              <h2 className="text-lg text-[#FFD9B8] sm:text-xl md:text-2xl">
+                Voting
+              </h2>
               <p className="px-4">
                 Citizens are eligible to elect their leader after reaching the
                 minimum age requirement.{" "}
               </p>
             </div>
-            <div className="mx-auto w-[40%] space-y-2 rounded-md border border-[#FFB777] px-4 py-2 text-center">
-              <h2 className="text-lg sm:text-xl md:text-2xl">Driver License</h2>
+            <div className="w-[90%] space-y-2 rounded-md border border-[#FFB777] px-4 py-2 text-center shadow-md shadow-[#FFB777] md:mx-auto md:w-[40%]">
+              <h2 className="text-lg text-[#FFD9B8] sm:text-xl md:text-2xl">
+                Driver License
+              </h2>
               <p className="px-4">
                 Students are asked to reveal their chronological age before
                 giving a driving test for a license.

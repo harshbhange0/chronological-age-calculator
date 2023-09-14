@@ -4,13 +4,13 @@ import Navbar from "../../nav/Nav";
 
 function About() {
   return (
-    <section className="bg_color  h-screen text-[#ECEDF1] flex flex-col justify-between">
+    <section className="bg_color text-[#ECEDF1] flex flex-col justify-between gap-8">
       <header className=" py-8  sm:py-10 lg:py-12">
         <Navbar />
       </header>
       <main className="mx-auto flex h-auto w-full flex-col items-center justify-center gap-8 px-4 sm:w-[70%] sm:px-0 md:w-[60%]">
         <h1 className="text-6xl text-center font-[600] mb-4 text-[#FFB777]">About US</h1>
-        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2">
+        <div className="mx-auto flex flex-col space-y-2 rounded-md border shadow-md shadow-[#FFB777] border-[#FFB777] px-4 py-2">
           <h1 className="text-center text-xl text-[#5DCBC4] sm:text-2xl md:text-4xl">
             Who we are?
           </h1>
@@ -26,7 +26,7 @@ function About() {
             PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
-        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2">
+        <div className="mx-auto flex flex-col space-y-2 rounded-md border shadow-md shadow-[#FFB777] border-[#FFB777] px-4 py-2">
           <h1 className="text-center text-xl text-[#5DCBC4] sm:text-2xl md:text-4xl">
             Our Purpose
           </h1>
