@@ -20,12 +20,22 @@ function Contact() {
             </div>
             <div>
               <h1 className="mb-4 text-center text-xl text-[#5DCBC4] sm:text-2xl md:text-4xl">
-                Share your Opinion
+                Caution! We take feedback seriously.
               </h1>
               <p className="px-4 leading-6">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
+                Hey, we are glad to hear from you. Your feedback is utterly
+                important to us. This helps us in making domainname better.
+                <br />
+                <br />
+                As our goal is to deliver the best to our users, we take
+                users&#39; words into consideration to understand the pain
+                points of people and bring improvements accordingly.
+                <br />
+                <br />
+                If you have any suggestions for us or facing a problem with our
+                product, reach out directly via email. We would be happy to hear
+                your questions, bug reports, feature requests, or general
+                comments.
               </p>
             </div>
           </div>
@@ -36,12 +46,13 @@ function Contact() {
         </div>
         <div className="flex flex-col justify-center space-y-4">
           <h1 className="text-center text-[#FFD9B8]">Rate Us</h1>
+          <h6 className="text-center text-sm text-gray-500"> you can &quot;Give us Stars&quot; and provide quick ratings Out of 5.</h6>
           <div className="flex justify-center gap-5">
             <BsFillStarFill className="text-[#BAB21A]" />
             <BsFillStarFill className="text-[#BAB21A]" />
             <BsFillStarFill className="text-[#BAB21A]" />
-            <BsFillStarFill className="text-[#D9D9D9]" />
-            <BsFillStarFill className="text-[#D9D9D9]" />
+            <BsFillStarFill className="text-[#BAB21A]" />
+            <BsFillStarFill className="text-[#BAB21A]" />
           </div>
         </div>
       </main>
