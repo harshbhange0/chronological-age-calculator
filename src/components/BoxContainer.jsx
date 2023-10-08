@@ -26,8 +26,8 @@ function BoxContainer({
         className={`${
           contentClass
             ? contentClass
-            : " box_container_content px-4 text-sm leading-6 sm:text-lg "
-        } box_container_content`}
+            : " box_container_content px-4 text-sm  leading-6 sm:text-lg "
+        } box_container_content block`}
       >
         {children}
       </span>

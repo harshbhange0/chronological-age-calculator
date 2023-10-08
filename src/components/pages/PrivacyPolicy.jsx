@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../nav/Nav";
 import Footer from "../Footer";
-
 function PrivacyPolicy() {
   return (
     <section className="bg_color flex flex-col justify-between gap-8 text-[#ECEDF1]">
@@ -9,31 +8,395 @@ function PrivacyPolicy() {
         <Navbar />
       </header>
       <main className="mx-auto flex h-auto w-full flex-col items-center justify-center gap-8 px-4 sm:w-[70%] sm:px-0 md:w-[60%]">
-        <h1 className="mb-4 text-center text-6xl font-[600] text-[#FFB777]">
+        <h1 className="mb-4 text-center text-4xl font-[600] text-[#FFB777] sm:text-5xl md:text-6xl">
           Privacy Policy
         </h1>
-        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2 shadow-md shadow-[#FFB777]">
-          <p className="px-4 leading-6">
-            Last updated: December 25, 2022 <br /> <br />This Privacy Policy describes Our
-            policies and procedures on the collection, use and disclosure of
-            Your information when You use the Service and tells You about Your
-            privacy rights and how the law protects You. 
-            <br /><br />
-            We use Your Personal
-            data to provide and improve the Service. By using the Service, You
-            agree to the collection and use of information in accordance with
-            this Privacy Policy. This
+        <div>
+          <br />
+          <br />
+          <br />
+          <strong className=" mb-2 inline-block text-4xl">
+            Privacy Policy
+          </strong>
+          <br />
+          <span className="underline underline-offset-2">
+            Last updated: December 25, 2022
+          </span>
+          <br />
+          This Privacy Policy describes Our policies and procedures on the
+          collection, use and disclosure of Your information when You use the
+          Service and tells You about Your privacy rights and how the law
+          protects You. <br />
+          <br />
+          We use Your Personal data to provide and improve the Service. By using
+          the Service, You agree to the collection and use of information in
+          accordance with this Privacy Policy.
+          <br />
+          <br />
+          <br />
+          <h6 className="text-3xl font-bold text-[#5DCBC4] ">Interpretation</h6>
+          <br />
+          The words of which the initial letter is capitalized have meanings
+          defined under the following conditions. The following definitions
+          shall have the same meaning regardless of whether they appear in
+          singular or in plural.
+        </div>
+        <div>
+          <br />
+          <br />
+          <br />
+          <h6 className="text-3xl font-bold text-[#5DCBC4] ">Definitions</h6>
+          <p className="ps-5 sm:ps-10 md:ps-14">
+            <br />
+            <p className="mb-2">
+              For the purposes of this Privacy Policy: <br />
+            </p>
+            <span className="mb-2 inline-block  ">
+              {" "}
+              <strong className="me-1 text-lg">Account </strong>
+              means a unique account created for You to access our Service or
+              parts of our Service. <br />{" "}
+            </span>
+            <span className="mb-2 inline-block  ">
+              <strong className="me-1 text-lg">Company </strong>
+              {"("}referred to as either &quot;the Company&quot;,
+              &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this
+              Agreement{")"} refers to example .
+            </span>
+            <br />
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg">Cookies </strong>
+              are small files that are placed on Your computer, mobile device or
+              any other device by a website, containing the details of Your
+              browsing history on that website among its many uses.
+            </span>
+            <br />
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg">Country </strong>
+              refers to: California, United States
+            </span>
+            <br />
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg">Device </strong>
+              means any device that can access the Service such as a computer, a
+              cellphone or a digital tablet.
+            </span>
+            <br />
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1  text-lg">Personal Data </strong>
+              is any information that relates to an identified or identifiable
+              individual.
+            </span>
+            <br />
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg">Service</strong>
+              refers to the Website.
+            </span>
+            <br />
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1  text-lg">Service Provider </strong>
+              means any natural or legal person who processes the data on behalf
+              of the Company. It refers to third-party companies or individuals
+              employed by the Company to facilitate the Service, to provide the
+              Service on behalf of the Company, to perform services related to
+              the Service or to assist the Company in analyzing how the Service
+              is used.
+            </span>
+            <br />
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1  text-lg">Usage Data </strong>
+              refers to data collected automatically, either generated by the
+              use of the Service or from the Service infrastructure itself (for
+              example, the duration of a page visit).
+            </span>
+            <br />
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg">Website refers </strong>
+              to example , accessible from http://example.com/ You means the
+              individual accessing or using the Service, or the company, or
+              other legal entity on behalf of which such individual is accessing
+              or using the Service, as applicable.
+            </span>
           </p>
         </div>
-        <div className="mx-auto flex flex-col space-y-2 rounded-md border border-[#FFB777] px-4 py-2 shadow-md shadow-[#FFB777]">
-          <h1 className="text-center text-xl text-[#5DCBC4] sm:text-2xl md:text-4xl">
-            Where does it come from?
-          </h1>
-          <p className="px-4 leading-6">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+        <div>
+          <br />
+          <br />
+          <br />
+          <h6 className="text-3xl font-bold text-[#5DCBC4] ">
+            Types of Data Collected
+          </h6>
+          <br />
+          <p>
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg">Personal Data</strong> <br />
+              While using Our Service, We may ask You to provide Us with certain
+              personally identifiable information that can be used to contact or
+              identify You. Personally identifiable information may include, but
+              is not limited to:
+              <br />
+              <br />
+              <span className="block ps-5 sm:ps-10 md:ps-14">
+                Email address
+                <br />
+                Usage Data
+              </span>
+            </span>
+          </p>
+        </div>
+        <div>
+          <br />
+          <br />
+          <br />
+          <h6 className="text-3xl font-bold text-[#5DCBC4] ">Usage Data</h6>
+          <br />
+          <br />
+          Usage Data is collected automatically when using the Service. <br />
+          <br />
+          <span className="mb-2 inline-block  ">
+            Usage Data may include information such as Your Device&#39;s
+            Internet Protocol address (e.g. IP address), browser type, browser
+            version, the pages of our Service that You visit, the time and date
+            of Your visit, the time spent on those pages, unique device
+            identifiers and other diagnostic data.
+          </span>
+          <br />
+          <span className="mb-2 inline-block  ">
+            When You access the Service by or through a mobile device, We may
+            collect certain information automatically, including, but not
+            limited to, the type of mobile device You use, Your mobile device
+            unique ID, the IP address of Your mobile device, Your mobile
+            operating system, the type of mobile Internet browser You use,
+            unique device identifiers and other diagnostic data.
+          </span>
+          <br />
+          <span className="mb-2 inline-block  ">
+            We may also collect information that Your browser sends whenever You
+            visit our Service or when You access the Service by or through a
+            mobile device.
+          </span>
+          <br />
+        </div>
+        <div>
+          <br />
+          <br />
+          <br />
+          <h6 className="text-3xl font-bold text-[#5DCBC4] ">
+            Tracking Technologies and Cookies
+          </h6>
+          <br />
+          <br />
+          We use Cookies and similar tracking technologies to track the activity
+          on Our Service and store certain information. Tracking technologies
+          used are beacons, tags, and scripts to collect and track information
+          and to improve and analyze Our Service. The technologies We use may
+          include: <br />
+          <br />
+          <span className="mb-2 inline-block  ">
+            <strong className=" me-1 text-lg ">
+              Cookies or Browser Cookies.
+            </strong>
+            A cookie is a small file placed on Your Device. You can instruct
+            Your browser to refuse all Cookies or to indicate when a Cookie is
+            being sent. However, if You do not accept Cookies, You may not be
+            able to use some parts of our Service. Unless you have adjusted Your
+            browser setting so that it will refuse Cookies, our Service may use
+            Cookies.
+          </span>
+          <span className="mb-2 inline-block  ">
+            <strong className=" me-1 text-lg ">Web Beacons.</strong>
+            Certain sections of our Service and our emails may contain small
+            electronic files known as web beacons (also referred to as clear
+            gifs, pixel tags, and single-pixel gifs) that permit the Company,
+            for example, to count users who have visited those pages or opened
+            an email and for other related website statistics (for example,
+            recording the popularity of a certain section and verifying system
+            and server integrity).
+          </span>
+          <br />
+          Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies.
+          Persistent Cookies remain on Your personal computer or mobile device
+          when You go offline, while Session Cookies are deleted as soon as You
+          close Your web browser. Learn more about cookies on the Free Privacy
+          Policy website article. <br />
+          <br />
+          We use both Session and Persistent Cookies for the purposes set out
+          below:
+          <br />
+          <br />
+          <p className="ps-5 sm:ps-10 md:ps-14">
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">
+                Necessary / Essential Cookies
+              </strong>
+              Type: Session Cookies <br />
+              Administered by: Us <br />
+              Purpose: These Cookies are essential to provide You with services
+              available through the Website and to enable You to use some of its
+              features. They help to authenticate users and prevent fraudulent
+              use of user accounts. Without these Cookies, the services that You
+              have asked for cannot be provided, and We only use these Cookies
+              to provide You with those services. \
+            </span>
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">
+                Cookies Policy / Notice Acceptance Cookies
+              </strong>
+              Type: Persistent Cookies <br />
+              Administered by: <br />
+              Purpose: These Cookies identify if users have accepted the use of
+              cookies on the Website.
+            </span>
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">Functionality Cookies</strong>
+              Type: Persistent Cookies <br />
+              Administered by: Us <br />
+              Purpose: These Cookies allow us to remember choices You make when
+              You use the Website, such as remembering your login details or
+              language preference. The purpose of these Cookies is to provide
+              You with a more personal experience and to avoid You having to
+              re-enter your preferences every time You use the Website.
+            </span>
+          </p>
+          For more information about the cookies we use and your choices
+          regarding cookies, please visit our Cookies Policy or the Cookies
+          section of our Privacy Policy.
+        </div>
+        <div>
+          <br />
+          <br />
+          <br />
+          <h6 className="text-3xl font-bold text-[#5DCBC4] ">
+            Use of Your Personal Data
+          </h6>
+          <br />
+          The Company may use Personal Data for the following purposes:
+          <p className="ps-5 sm:ps-10 md:ps-14">
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">
+                To provide and maintain our Service,
+              </strong>
+              including to monitor the usage of our Service.
+            </span>
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">
+                To manage Your Account:
+              </strong>
+              to manage Your registration as a user of the Service. The Personal
+              Data You provide can give You access to different functionalities
+              of the Service that are available to You as a registered user.
+            </span>
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">
+                For the performance of a contract:
+              </strong>
+              the development, compliance and undertaking of the purchase
+              contract for the products, items or services You have purchased or
+              of any other contract with Us through the Service.
+            </span>{" "}
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">To contact You:</strong>
+              To contact You by email, telephone calls, SMS, or other equivalent
+              forms of electronic communication, such as a mobile
+              application&#39;s push notifications regarding updates or
+              informative communications related to the functionalities,
+              products or contracted services, including the security updates,
+              when necessary or reasonable for their implementation.
+            </span>{" "}
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">To provide You</strong>
+              with news, special offers and general information about other
+              goods, services and events which we offer that are similar to
+              those that you have already purchased or enquired about unless You
+              have opted not to receive such information.
+            </span>
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">
+                To manage Your requests:
+              </strong>
+              To attend and manage Your requests to Us.
+            </span>
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">
+                For business transfers:
+              </strong>
+              We may use Your information to evaluate or conduct a merger,
+              divestiture, restructuring, reorganization, dissolution, or other
+              sale or transfer of some or all of Our assets, whether as a going
+              concern or as part of bankruptcy, liquidation, or similar
+              proceeding, in which Personal Data held by Us about our Service
+              users is among the assets transferred.
+            </span>
+            <span className="mb-2 inline-block  ">
+              <strong className=" me-1 text-lg ">For other purposes:</strong>We
+              may use Your information for other purposes, such as data
+              analysis, identifying usage trends, determining the effectiveness
+              of our promotional campaigns and to evaluate and improve our
+              Service, products, services, marketing and your experience.
+            </span>
+          </p>
+        </div>
+        <div>
+          We may share Your personal information in the following situations:
+          <br />
+          <br />{" "}
+          <p className="md:ps-18 ps-8 sm:ps-14">
+            <ul className="block list-disc">
+              <li>
+                <span className="mb-2 inline-block  ">
+                  <strong className=" me-1 text-lg ">
+                    With Service Providers:
+                  </strong>
+                  We may share Your personal information with Service Providers
+                  to monitor and analyze the use of our Service, to contact You.
+                </span>
+              </li>
+              <li>
+                <span className="mb-2 inline-block  ">
+                  <strong className=" me-1 text-lg ">
+                    For business transfers:
+                  </strong>
+                  We may share or transfer Your personal information in
+                  connection with, or during negotiations of, any merger, sale
+                  of Company assets, financing, or acquisition of all or a
+                  portion of Our business to another company.
+                </span>
+              </li>
+              <li>
+                <span className="mb-2 inline-block  ">
+                  <strong className=" me-1 text-lg ">With Affiliates:</strong>We
+                  may share Your information with Our affiliates, in which case
+                  we will require those affiliates to honor this Privacy Policy.
+                  Affiliates include Our parent company and any other
+                  subsidiaries, joint venture partners or other companies that
+                  We control or that are under common control with Us.
+                </span>
+              </li>
+              <li>
+                <span className="mb-2 inline-block  ">
+                  <strong className=" me-1 text-lg ">
+                    With business partners:
+                  </strong>
+                  We may share Your information with Our business partners to
+                  offer You certain products, services or promotions.
+                </span>
+              </li>
+              <li>
+                <span className="mb-2 inline-block  ">
+                  <strong className=" me-1 text-lg ">With other users:</strong>
+                  when You share personal information or otherwise interact in
+                  the public areas with other users, such information may be
+                  viewed by all users and may be publicly distributed outside.
+                </span>
+              </li>
+              <li>
+                <span className="mb-2 inline-block  ">
+                  <strong className=" me-1 text-lg ">With Your consent:</strong>
+                  We may disclose Your personal information for any other
+                  purpose with Your consent.
+                </span>
+              </li>
+            </ul>
           </p>
         </div>
       </main>

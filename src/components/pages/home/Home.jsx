@@ -10,7 +10,6 @@ function Home() {
         <Nav />
       </header>
       <main className=" flex flex-col gap-8">
-
         <InfoSection />
         <Footer />
       </main>

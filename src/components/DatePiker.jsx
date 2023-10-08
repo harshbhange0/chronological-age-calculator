@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import BoxContainer from "./BoxContainer";
 
 function DatePiker({ title, isCurrent, type, placeholder, updateSharedData }) {
   const [date, setDate] = useState("");
@@ -22,7 +21,7 @@ function DatePiker({ title, isCurrent, type, placeholder, updateSharedData }) {
       <h2 className="text-xl text-center text-white sm:text-2xl md:text-3xl">
         {title}
       </h2>
-      <BoxContainer containerClass="">
+      <div className=" rounded-md border border-[#FFB777]  shadow-md shadow-[#FFB777] ">
         <input
           type={type}
           value={isCurrent ? currentDate : date}
@@ -31,7 +30,7 @@ function DatePiker({ title, isCurrent, type, placeholder, updateSharedData }) {
           className="mx-auto w-full bg-transparent p-2 text-center outline-none placeholder-text-center placeholder-text-sm sm:text-xl placeholder-sm:text-xl"
           placeholder={placeholder}
         />
-      </BoxContainer>
+      </div>
     </div>
   );
 }
